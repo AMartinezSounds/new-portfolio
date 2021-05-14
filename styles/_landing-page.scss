@@ -1,7 +1,7 @@
 @import "./variables";
 
 .landing-page {
-  height: 94vh;
+  min-height: 94vh;
   width: 100vw;
   display: flex;
   flex-direction: column;

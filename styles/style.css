@@ -35,82 +35,6 @@ ul {
           box-sizing: border-box;
 }
 
-.button-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-}
-
-.button {
-  cursor: pointer;
-  border-radius: 15px;
-  background: transparent;
-  background-color: #07242f;
-  border: none;
-  -webkit-transition: all 350ms ease;
-  transition: all 350ms ease;
-}
-
-.button:hover {
-  background-color: white;
-}
-
-.button-link {
-  color: white;
-  font-size: 4rem;
-  padding: 2rem;
-  -webkit-transition: all 350ms linear;
-  transition: all 350ms linear;
-}
-
-.button-link:hover {
-  color: #07242f;
-  letter-spacing: 1.5px;
-  font-size: 5.2rem;
-}
-
-.button-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-}
-
-.button {
-  cursor: pointer;
-  border-radius: 15px;
-  background: transparent;
-  background-color: #07242f;
-  border: none;
-  -webkit-transition: all 350ms ease;
-  transition: all 350ms ease;
-}
-
-.button:hover {
-  background-color: white;
-}
-
-.button-link {
-  color: white;
-  font-size: 4rem;
-  padding: 2rem;
-  -webkit-transition: all 350ms linear;
-  transition: all 350ms linear;
-}
-
-.button-link:hover {
-  color: #07242f;
-  letter-spacing: 1.5px;
-  font-size: 5.2rem;
-}
-
 #navbar {
   height: 6rem;
   display: -webkit-box;
@@ -280,46 +204,8 @@ ul {
   color: #07242f;
 }
 
-.button-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-}
-
-.button {
-  cursor: pointer;
-  border-radius: 15px;
-  background: transparent;
-  background-color: #07242f;
-  border: none;
-  -webkit-transition: all 350ms ease;
-  transition: all 350ms ease;
-}
-
-.button:hover {
-  background-color: white;
-}
-
-.button-link {
-  color: white;
-  font-size: 4rem;
-  padding: 2rem;
-  -webkit-transition: all 350ms linear;
-  transition: all 350ms linear;
-}
-
-.button-link:hover {
-  color: #07242f;
-  letter-spacing: 1.5px;
-  font-size: 5.2rem;
-}
-
 .landing-page {
-  height: 94vh;
+  min-height: 94vh;
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -379,46 +265,8 @@ ul {
   margin-right: 1rem;
 }
 
-.button-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-}
-
-.button {
-  cursor: pointer;
-  border-radius: 15px;
-  background: transparent;
-  background-color: #07242f;
-  border: none;
-  -webkit-transition: all 350ms ease;
-  transition: all 350ms ease;
-}
-
-.button:hover {
-  background-color: white;
-}
-
-.button-link {
-  color: white;
-  font-size: 4rem;
-  padding: 2rem;
-  -webkit-transition: all 350ms linear;
-  transition: all 350ms linear;
-}
-
-.button-link:hover {
-  color: #07242f;
-  letter-spacing: 1.5px;
-  font-size: 5.2rem;
-}
-
 .about-me {
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -462,7 +310,7 @@ ul {
 }
 
 .image {
-  width: 100%;
+  max-width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
@@ -479,7 +327,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 50%;
+  width: 60%;
 }
 
 .paragraph {
@@ -491,46 +339,8 @@ ul {
   line-height: 3.3rem;
 }
 
-.button-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-}
-
-.button {
-  cursor: pointer;
-  border-radius: 15px;
-  background: transparent;
-  background-color: #07242f;
-  border: none;
-  -webkit-transition: all 350ms ease;
-  transition: all 350ms ease;
-}
-
-.button:hover {
-  background-color: white;
-}
-
-.button-link {
-  color: white;
-  font-size: 4rem;
-  padding: 2rem;
-  -webkit-transition: all 350ms linear;
-  transition: all 350ms linear;
-}
-
-.button-link:hover {
-  color: #07242f;
-  letter-spacing: 1.5px;
-  font-size: 5.2rem;
-}
-
 .portfolio {
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -667,44 +477,6 @@ ul {
   color: #07242f;
 }
 
-.button-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-}
-
-.button {
-  cursor: pointer;
-  border-radius: 15px;
-  background: transparent;
-  background-color: #07242f;
-  border: none;
-  -webkit-transition: all 350ms ease;
-  transition: all 350ms ease;
-}
-
-.button:hover {
-  background-color: white;
-}
-
-.button-link {
-  color: white;
-  font-size: 4rem;
-  padding: 2rem;
-  -webkit-transition: all 350ms linear;
-  transition: all 350ms linear;
-}
-
-.button-link:hover {
-  color: #07242f;
-  letter-spacing: 1.5px;
-  font-size: 5.2rem;
-}
-
 .contact {
   height: 100vh;
   width: 100vw;
@@ -737,7 +509,7 @@ form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
+  min-width: 50%;
   height: 80%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -796,44 +568,6 @@ input[type="submit"]:hover {
   width: 70%;
 }
 
-.button-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-}
-
-.button {
-  cursor: pointer;
-  border-radius: 15px;
-  background: transparent;
-  background-color: #07242f;
-  border: none;
-  -webkit-transition: all 350ms ease;
-  transition: all 350ms ease;
-}
-
-.button:hover {
-  background-color: white;
-}
-
-.button-link {
-  color: white;
-  font-size: 4rem;
-  padding: 2rem;
-  -webkit-transition: all 350ms linear;
-  transition: all 350ms linear;
-}
-
-.button-link:hover {
-  color: #07242f;
-  letter-spacing: 1.5px;
-  font-size: 5.2rem;
-}
-
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -845,7 +579,7 @@ input[type="submit"]:hover {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   height: 12rem;
-  width: 100%;
+  max-width: 100%;
   background-color: #051622;
 }
 
@@ -861,5 +595,11 @@ input[type="submit"]:hover {
   cursor: pointer;
   font-size: 4rem;
   color: white;
+}
+
+@media (max-width: 700px) {
+  .copyright {
+    font-size: 1.3rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
