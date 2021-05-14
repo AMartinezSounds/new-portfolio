@@ -204,6 +204,12 @@ ul {
   color: #07242f;
 }
 
+@media (max-width: 375px) {
+  .navbar-links h1 {
+    font-size: 5rem;
+  }
+}
+
 .landing-page {
   min-height: 94vh;
   width: 100vw;

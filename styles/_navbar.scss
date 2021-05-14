@@ -132,3 +132,9 @@
   letter-spacing: 1.4px;
   color: $secondary-text-color;
 }
+
+@media (max-width: 375px) {
+  .navbar-links h1 {
+    font-size: 5rem;
+  }
+}
