@@ -1,0 +1,60 @@
+@import "./variables";
+
+.contact {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-title {
+  @include title;
+}
+
+form {
+  display: flex;
+  width: 50%;
+  height: 80%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+label {
+  font-size: 2rem;
+  color: $secondary-text-color;
+  font-weight: bold;
+}
+
+textarea {
+  resize: none;
+}
+
+input,
+textarea {
+  padding: 1rem;
+  font-size: 2rem;
+  border: solid 2px $main-background-color;
+  &:focus {
+    outline: none;
+  }
+}
+
+input[type="submit"] {
+  background: none;
+  cursor: pointer;
+  font-size: 2.2rem;
+  transition: all 250ms linear;
+  &:hover {
+    background: $main-background-color;
+    color: white;
+  }
+}
+
+.contact-row {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}

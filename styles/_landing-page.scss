@@ -1,0 +1,36 @@
+@import "./variables";
+
+.landing-page {
+  height: 94vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.my-name {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: $main-text-color;
+}
+.specilization {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 5rem;
+  color: $main-text-color;
+}
+
+.technologies {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 6rem;
+}
+
+.technologies i {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

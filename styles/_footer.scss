@@ -1,0 +1,22 @@
+@import "./variables";
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 12rem;
+  width: 100%;
+  background-color: $main-background-color;
+}
+
+.copyright {
+  display: flex;
+  color: white;
+  font-size: 2rem;
+}
+
+.github {
+  cursor: pointer;
+  font-size: 4rem;
+  color: white;
+}

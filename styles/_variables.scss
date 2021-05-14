@@ -1,0 +1,42 @@
+$main-text-color: white;
+$secondary-text-color: #07242f;
+$links-color: #07242f;
+$main-background-color: #051622;
+
+@mixin title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 5rem;
+  color: $secondary-text-color;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 15px;
+  background: transparent;
+  background-color: #07242f;
+  border: none;
+  transition: all 350ms ease;
+  &:hover {
+    background-color: white;
+  }
+}
+
+.button-link {
+  color: white;
+  font-size: 4rem;
+  padding: 2rem;
+  transition: all 350ms linear;
+  &:hover {
+    color: #07242f;
+    letter-spacing: 1.5px;
+    font-size: 5.2rem;
+  }
+}

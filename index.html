@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/01bfbc37cd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>A.Martinez Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="lines navbar__lines">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
+        <div class="navbar-links">
+          <ul>
+            <li class="navbar-link">
+              <a id="navbar-home" href="#landing-page">HOME</a>
+            </li>
+            <li class="navbar-link">
+              <a id="navbar-about" href="#about-me">ABOUT</a>
+            </li>
+          </ul>
+          <h1 class="navbar-title">
+            <span id="navbar-title-alfredo">A</span
+            ><span id="navbar-title-martinez">M</span>
+          </h1>
+          <ul>
+            <li class="navbar-link">
+              <a id="navbar-portfolio" href="#portfolio"
+                >PORTFOLIO</a
+              >
+            </li>
+            <li class="navbar-link">
+              <a id="navbar-contact" href="#contact-section">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="landing-page" class="landing-page">
+        <div class="my-name">
+          <h1 class="alfredo"><span>A</span>lfredo &nbsp;</h1>
+          <h1 class="martinez"><span>M</span>artínez</h1>
+        </div>
+        <div class="specilization">
+          <p>Frontend Developer</p>
+          <p>adept in:</p>
+        </div>
+        <div class="technologies">
+          <i style="color: #ee4d26" class="fab fa-html5 html-icon"></i>
+          <i style="color: #264de4" class="fab fa-css3-alt css-icon"></i>
+          <i style="color: #f0db4f" class="fab fa-js js-icon"></i>
+          <i style="color: #61dbfb" class="fab fa-react react-icon"></i>
+          <i style="color: #cd6799" class="fab fa-sass sass-icon"></i>
+        </div>
+      </section>
+      <section id="about-me" class="about-me">
+        <div class="about-me-title">
+          <h2>About Me</h2>
+        </div>
+        <div class="image-container">
+          <img class="image" src="./pictures/my-picture-min.png" alt="me" />
+        </div>
+        <div class="about-me-description">
+          <p class="paragraph p1">
+            I'm a self-taught frontend developer based in Spain.
+          </p>
+          <p class="paragraph p2">
+            Currently I work with HTML, CSS, SCSS, JavaScript and ReactJs. Also
+            I control my project versions with Git and I deploy my projects with
+            Netlify or Firebase.
+          </p>
+          <p class="paragraph p3">
+            Trusting people is the key to effective teamwork. Being open-minded
+            and accepting others views are the best way to develop.
+          </p>
+        </div>
+        <div class="button-container">
+          <button class="button">
+            <a class="button-link" href="#">Contact</a>
+          </button>
+        </div>
+      </section>
+      <section id="portfolio" class="portfolio">
+        <div class="portfolio-title">
+          <h2>Portfolio</h2>
+        </div>
+        <div class="portfolio-project">
+          <div class="project-image-container">
+            <img
+              class="project-image"
+              src="./compressedImages/ignite-project.png"
+              alt="audio-app"
+            />
+          </div>
+          <div class="project-characteristics">
+            <h3>Ignite Website</h3>
+            <div class="project-characteristics-description">
+              <p>Responsive website for a multimedia company.</p>
+              <p>Built with ReactJs.</p>
+              <p>
+                Styled-components for styling and Framer Motion for animations.
+              </p>
+            </div>
+            <div class="project-buttons">
+              <button class="button-live"><a href="#">Live</a></button>
+              <button class="button-code"><a href="#">Code</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-project middle">
+          <div class="project-image-container">
+            <img
+              class="project-image"
+              src="./compressedImages/waves-project.png"
+              alt="audio-app"
+            />
+          </div>
+          <div class="project-characteristics">
+            <h3>Waves Playlist</h3>
+            <div class="project-characteristics-description">
+              <p>
+                Responsive audio player where you can listen to some of my
+                favourite tracks.
+              </p>
+              <p>Built with ReactJs.</p>
+              <p>Styled with SCSS.</p>
+            </div>
+            <div class="project-buttons">
+              <button class="button-live"><a href="#">Live</a></button>
+              <button class="button-code"><a href="#">Code</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-project">
+          <div class="project-image-container">
+            <img
+              class="project-image"
+              src="./compressedImages/disney-project.png"
+              alt="audio-app"
+            />
+          </div>
+          <div class="project-characteristics">
+            <h3>Disney+ Clone</h3>
+            <div class="project-characteristics-description">
+              <p>Responsive website for Disney+</p>
+              <p>Built with ReactJs, Redux and Styled-components</p>
+              <p>
+                This website pull out the data from a database allocated in
+                Firebase.
+              </p>
+            </div>
+            <div class="project-buttons">
+              <button class="button-live"><a href="#">Live</a></button>
+              <button class="button-code"><a href="#">Code</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact-section" class="contact">
+        <div class="contact-title">
+          <h2>Contact</h2>
+        </div>
+        <form action="https://formspree.io/f/mnqlagpk" method="post">
+          <div class="contact-row">
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Name" required />
+          </div>
+          <div class="contact-row">
+            <label for="lastname">Lastname:</label>
+            <input
+              type="text"
+              name="lastname"
+              placeholder="Lastname"
+              required
+            />
+          </div>
+          <div class="contact-row">
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Email" required />
+          </div>
+          <div class="contact-row">
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="5"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <input type="submit" />
+        </form>
+      </section>
+    </main>
+    <div id="footer" class="footer">
+      <ul class="copyright">
+        <li>&copy; All Rights Reserved Alfredo Martinez &nbsp;||&nbsp;</li>
+        <li>&nbsp;Design: A. Martínez &nbsp; 2021</li>
+      </ul>
+      <div>
+        <i class="fab fa-github github"></i>
+      </div>
+    </div>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,134 @@
+@import "./variables";
+
+#navbar {
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+}
+
+.lines {
+  height: 6rem;
+  width: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: solid 0.2rem;
+  border-color: white;
+  position: fixed;
+  z-index: 3;
+  top: 0px;
+  right: 0px;
+  transition: all 0.5s ease-in-out;
+}
+
+.lines-toggle {
+  border-color: #07242f;
+}
+
+.lines-intersection-1 {
+  border-color: #07242f;
+}
+
+.lines-intersection-2 {
+  border-color: white;
+}
+
+.line {
+  background-color: white;
+  height: 0.2rem;
+  width: 2.5rem;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  transition: all 0.5s linear;
+}
+
+.line-intersection-1 {
+  background-color: #07242f;
+}
+
+.line-intersection-2 {
+  background-color: white;
+}
+
+.line-2 {
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}
+
+.change1 {
+  transform-origin: 0;
+  transform: scaleY(1.2) translate(0.2rem, 0) rotate(40deg);
+}
+
+.change2 {
+  opacity: 0;
+}
+
+.change3 {
+  transform-origin: 0;
+  transform: scaleY(1.2) translate(0.2rem, 0) rotate(-40deg);
+}
+
+.line-black {
+  background-color: $main-background-color;
+}
+
+.navbar-links {
+  position: fixed;
+  top: 0px;
+  right: -180px;
+  height: 100vh;
+  width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.showNavbar {
+  width: 50vw;
+  right: 0;
+  border-left: solid 1px black;
+}
+
+.navbar-link {
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  margin-left: 0;
+  transition: all 0.5s ease-in-out;
+  font-size: 2rem;
+}
+
+.navbar-link a {
+  color: $links-color;
+  letter-spacing: 1.4px;
+}
+
+.navbar-link:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 2px;
+  width: 0;
+  left: 0px;
+  bottom: -7px;
+  transition: 0.3s ease-out;
+}
+.navbar-link:hover:after {
+  width: 100%;
+}
+
+.navbar-links h1 {
+  margin-left: 0;
+  font-size: 10rem;
+  letter-spacing: 1.4px;
+  color: $secondary-text-color;
+}
