@@ -204,7 +204,7 @@ ul {
   color: #07242f;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .navbar-links h1 {
     font-size: 5rem;
   }
@@ -272,7 +272,19 @@ ul {
   margin-right: 1rem;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
+  .my-name h1 {
+    font-size: 7rem;
+  }
+  .specilization {
+    font-size: 4.5rem;
+  }
+  .technologies {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 414px) {
   .my-name h1 {
     font-size: 4rem;
   }
@@ -358,13 +370,26 @@ ul {
   line-height: 3.3rem;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
+  .about-me-title {
+    font-size: 5rem;
+  }
+  .image-container {
+    height: 20rem;
+    width: 20rem;
+  }
+}
+
+@media (max-width: 414px) {
   .about-me-title {
     font-size: 2.5rem;
   }
   .image-container {
     height: 15rem;
     width: 15rem;
+  }
+  .about-me-description {
+    width: 80%;
   }
 }
 
@@ -506,7 +531,38 @@ ul {
   color: #07242f;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1024px) and (max-height: 1366px) {
+  .portfolio {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .portfolio-title {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-title {
+    font-size: 5rem;
+  }
+  .project-characteristics h3 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+  .portfolio {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .portfolio-title {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 414px) {
   .portfolio-title {
     font-size: 2.7rem;
   }
@@ -606,7 +662,19 @@ input[type="submit"]:hover {
   width: 70%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1024px) and (max-height: 1366px) {
+  form {
+    min-width: 80%;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+  form {
+    min-width: 80%;
+  }
+}
+
+@media (max-width: 414px) {
   .contact h2 {
     font-size: 5rem;
   }
@@ -647,7 +715,7 @@ input[type="submit"]:hover {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .copyright {
     font-size: 0.9rem;
   }

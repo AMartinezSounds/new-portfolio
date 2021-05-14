@@ -36,7 +36,19 @@
   margin-right: 1rem;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
+  .my-name h1 {
+    font-size: 7rem;
+  }
+  .specilization {
+    font-size: 4.5rem;
+  }
+  .technologies {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 414px) {
   .my-name h1 {
     font-size: 4rem;
   }

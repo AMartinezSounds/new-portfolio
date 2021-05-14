@@ -45,12 +45,25 @@
   line-height: 3.3rem;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
+  .about-me-title {
+    font-size: 5rem;
+  }
+  .image-container {
+    height: 20rem;
+    width: 20rem;
+  }
+}
+
+@media (max-width: 414px) {
   .about-me-title {
     font-size: 2.5rem;
   }
   .image-container {
     height: 15rem;
     width: 15rem;
+  }
+  .about-me-description {
+    width: 80%;
   }
 }
