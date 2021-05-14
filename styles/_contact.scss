@@ -58,3 +58,9 @@ input[type="submit"] {
   flex-direction: column;
   width: 70%;
 }
+
+@media (max-width: 375px) {
+  .contact h2 {
+    font-size: 5rem;
+  }
+}

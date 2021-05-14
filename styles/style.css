@@ -220,6 +220,7 @@ ul {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  overflow-x: hidden;
 }
 
 .my-name {
@@ -263,6 +264,18 @@ ul {
 .technologies i {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+@media (max-width: 375px) {
+  .my-name h1 {
+    font-size: 4rem;
+  }
+  .specilization {
+    font-size: 2.5rem;
+  }
+  .technologies {
+    font-size: 3rem;
+  }
 }
 
 .about-me {
@@ -337,6 +350,16 @@ ul {
   margin-top: 1rem;
   margin-bottom: 1rem;
   line-height: 3.3rem;
+}
+
+@media (max-width: 375px) {
+  .about-me-title {
+    font-size: 2.5rem;
+  }
+  .image-container {
+    height: 15rem;
+    width: 15rem;
+  }
 }
 
 .portfolio {
@@ -477,6 +500,15 @@ ul {
   color: #07242f;
 }
 
+@media (max-width: 375px) {
+  .portfolio-title {
+    font-size: 2.7rem;
+  }
+  .project-characteristics h3 {
+    font-size: 2.2rem;
+  }
+}
+
 .contact {
   height: 100vh;
   width: 100vw;
@@ -568,6 +600,12 @@ input[type="submit"]:hover {
   width: 70%;
 }
 
+@media (max-width: 375px) {
+  .contact h2 {
+    font-size: 5rem;
+  }
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -600,6 +638,12 @@ input[type="submit"]:hover {
 @media (max-width: 700px) {
   .copyright {
     font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .copyright {
+    font-size: 0.9rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -92,3 +92,12 @@
   font-size: 3rem;
   color: $secondary-text-color;
 }
+
+@media (max-width: 375px) {
+  .portfolio-title {
+    font-size: 2.7rem;
+  }
+  .project-characteristics h3 {
+    font-size: 2.2rem;
+  }
+}

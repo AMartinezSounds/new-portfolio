@@ -7,6 +7,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  overflow-x: hidden;
 }
 .my-name {
   width: 100%;
@@ -33,4 +34,16 @@
 .technologies i {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+@media (max-width: 375px) {
+  .my-name h1 {
+    font-size: 4rem;
+  }
+  .specilization {
+    font-size: 2.5rem;
+  }
+  .technologies {
+    font-size: 3rem;
+  }
 }
