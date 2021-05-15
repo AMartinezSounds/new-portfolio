@@ -123,11 +123,55 @@
 }
 
 @media (max-width: 414px) {
+  .portfolio {
+    width: 86vw;
+  }
+  .portfolio-project {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
   .portfolio-title {
     font-size: 2.7rem;
   }
 
+  .project-image-container {
+    width: 40%;
+  }
+
+  .project-characteristics {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+
   .project-characteristics h3 {
-    font-size: 2.2rem;
+    font-size: 2rem;
+  }
+
+  .project-characteristics-description {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .button-live {
+    font-size: 1.5rem;
+    border: none;
+  }
+  .button-code {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .portfolio {
+    width: 93vw;
   }
 }

@@ -391,6 +391,10 @@ ul {
   .about-me-description {
     width: 80%;
   }
+  .paragraph {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
 }
 
 .portfolio {
@@ -563,11 +567,65 @@ ul {
 }
 
 @media (max-width: 414px) {
+  .portfolio {
+    width: 86vw;
+  }
+  .portfolio-project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
   .portfolio-title {
     font-size: 2.7rem;
   }
+  .project-image-container {
+    width: 40%;
+  }
+  .project-characteristics {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .project-image {
+    width: 100%;
+  }
   .project-characteristics h3 {
-    font-size: 2.2rem;
+    font-size: 2rem;
+  }
+  .project-characteristics-description {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .button-live {
+    font-size: 1.5rem;
+    border: none;
+  }
+  .button-code {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .portfolio {
+    width: 93vw;
   }
 }
 
@@ -677,6 +735,12 @@ input[type="submit"]:hover {
 @media (max-width: 414px) {
   .contact h2 {
     font-size: 5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .form {
+    min-width: 100%;
   }
 }
 
