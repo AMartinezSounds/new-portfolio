@@ -15,9 +15,15 @@
   font-size: 2rem;
 }
 
-.github {
+.github,
+.linkedin {
   cursor: pointer;
   font-size: 4rem;
+  color: white;
+  margin-right: 0.5rem;
+}
+
+.disclaimer {
   color: white;
 }
 
