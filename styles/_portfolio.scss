@@ -124,7 +124,7 @@
 
 @media (max-width: 414px) {
   .portfolio {
-    width: 86vw;
+    width: 100vw;
   }
   .portfolio-project {
     display: flex;
@@ -155,10 +155,7 @@
   }
 
   .project-characteristics-description {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    width: 45%;
   }
 
   .button-live {

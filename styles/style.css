@@ -156,6 +156,8 @@ ul {
   background-color: white;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  -webkit-box-shadow: 0px 1px 10px #333333;
+          box-shadow: 0px 1px 10px #333333;
 }
 
 .showNavbar {
@@ -202,11 +204,57 @@ ul {
   font-size: 10rem;
   letter-spacing: 1.4px;
   color: #07242f;
+  font-weight: bold;
 }
 
 @media (max-width: 414px) {
+  .lines {
+    display: none;
+  }
+  .navbar-links {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    height: 6vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+  }
+  .navbar-links ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+  }
+  .navbar-link {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    cursor: pointer;
+    position: static;
+    font-size: 1.3rem;
+  }
+  .navbar-link a {
+    color: #07242f;
+  }
+  .lines-intersection-1 {
+    border-color: #07242f;
+    display: none;
+  }
   .navbar-links h1 {
-    font-size: 5rem;
+    display: none;
   }
 }
 
@@ -568,7 +616,7 @@ ul {
 
 @media (max-width: 414px) {
   .portfolio {
-    width: 86vw;
+    width: 100vw;
   }
   .portfolio-project {
     display: -webkit-box;
@@ -602,17 +650,7 @@ ul {
     font-size: 2rem;
   }
   .project-characteristics-description {
-    width: 60%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    width: 45%;
   }
   .button-live {
     font-size: 1.5rem;

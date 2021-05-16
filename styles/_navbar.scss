@@ -88,6 +88,7 @@
   align-items: center;
   background-color: white;
   transition: all 0.5s ease-in-out;
+  box-shadow: 0px 1px 10px rgb(51, 51, 51);
 }
 
 .showNavbar {
@@ -131,10 +132,45 @@
   font-size: 10rem;
   letter-spacing: 1.4px;
   color: $secondary-text-color;
+  font-weight: bold;
 }
 
 @media (max-width: 414px) {
+  .lines {
+    display: none;
+  }
+  .navbar-links {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+  }
+  .navbar-links ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .navbar-link {
+    justify-content: space-around;
+    cursor: pointer;
+    position: static;
+    font-size: 1.3rem;
+  }
+  .navbar-link a {
+    color: $secondary-text-color;
+  }
+  .lines-intersection-1 {
+    border-color: #07242f;
+    display: none;
+  }
+
   .navbar-links h1 {
-    font-size: 5rem;
+    display: none;
   }
 }
