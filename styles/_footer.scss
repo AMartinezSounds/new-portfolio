@@ -23,8 +23,15 @@
   margin-right: 0.5rem;
 }
 
-.disclaimer {
+.disclaimer,
+.cv-text,
+.cv-text a {
   color: white;
+}
+
+.cv-text a {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 @media (max-width: 700px) {

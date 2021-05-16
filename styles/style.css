@@ -772,7 +772,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 414px) {
   .contact h2 {
-    font-size: 5rem;
+    font-size: 4.3rem;
   }
 }
 
@@ -813,8 +813,15 @@ input[type="submit"]:hover {
   margin-right: 0.5rem;
 }
 
-.disclaimer {
+.disclaimer,
+.cv-text,
+.cv-text a {
   color: white;
+}
+
+.cv-text a {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 @media (max-width: 700px) {
